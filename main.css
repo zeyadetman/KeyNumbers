@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+}
+
+kbd {
+    font-size: 25vw;
+    width: 50%;
+    height: 50%;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+span {
+    font-size: 15vw;
+    width: 50%;
+    height: 50%;
+    color: gold;
+}
+
+.container {
+    height: 50%;
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#twitter {
+    float: left;
+    padding: 0 2px 0 0;
+}
